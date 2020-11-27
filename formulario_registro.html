@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!--estilos en css-->
+    <style>
+      .slider{
+        background: url("images/cementerio-2.jpeg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+
+    <title>Formulario de registro cliente nuevo</title>
+
+  </head>
+  <body>
+    <section class="container-fluid slider d-flex justify-content-center align-items-center">
+      <h1 class="font-weight-bold text-white">CEMENTERIO EL MAUSOLEO LOS FUNDADORES</h1>
+    </section>
+    
+    <nav class="navbar navbar-inverse bg-inverse sticky-top navbar-toggleable-sm sticky-top">
+     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+     </button>
+    <a class="navbar-brand" href="index.html">
+    <img src="images/cementerio-1.jpg" width="30" height="30" class="d-inline-block align-top" alt="Mausoleo">
+    Mausoleo
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <div class="navbar-nav d-flex mr-auto ml-auto text-center">
+      <a class="nav-item nav-link active mr-5" href="index.html">Inicio</a>
+      <a class="nav-item nav-link active mr-5" href="#">nosotros</a>
+      <a class="nav-item nav-link active mr-5" href="#">contactos</a>
+       <a class="nav-item nav-link active mr-5" href="#">consultas</a>
+      <a class="nav-item nav-link active mr-5" href="#">pagos</a>
+      </div>
+    </div>
+    </nav>
+
+    <section class="container">
+      <h1 class="text-center">Formulario de regsitro</h1>
+      <h6 class="text-center text-danger">IMPORTANTE solo crear el usuario si tienen osarios o bobedas alquiladas en nuestro cementerio</h1>
+    
+    <form action="d-flex justify-content-center flex-column flex-md-row" method="post">
+      <div class="form-group">
+        <label for="">Identificacion:</label>
+        <input type="text" placeholder="escribe tu numero de Identificacion"class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="">Nombre: </label>
+        <input type="text" placeholder="escribe tu nombre" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="">Numero telefonico: </label>
+        <input type="text" placeholder="escribe tu numero telefonico" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="">Direccion: </label>
+        <input type="text" placeholder="escribe tu Direccion" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="">Email</label>
+        <input type="email" placeholder="escribe tu email" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="">Crear contraseña</label>
+        <input type="password" placeholder="Contraseña">
+      </div>
+      <div class="form-group d-flex justify-content-center sucess">
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+  Enviar
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">envio exitoso</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Sus datos han sido registrados con exito</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>   
+  </div>
+
+    <div class="form-group d-flex justify-content-center" >
+      <button type="alert" class="btn btn-danger"  >Cancelar</button>
+    </div>
+  </form>
+  </section>
+     
+    
+    
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
